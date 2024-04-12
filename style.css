@@ -64,12 +64,12 @@ margin-right: 20px;
 
 
 
-.navp{
-   
+.navp > p{
+    
     box-shadow: 1px 2px 10px 5px #00000010;
-  margin-right: 20px;
- text-align: center;
   
+ text-align: center;
+  width: 80px;
     font-size: 15px;
     border-radius: 5px;
   padding: 7px;
@@ -78,10 +78,13 @@ background-color: #FBFBFB;
 
 }
 
-.navp:hover{
-
-    background-color: #f3f3f3;
+.navp > p:hover{
+    transform: scale(1.05);   
+    
 }
+
+
+
 
 
 
@@ -179,9 +182,9 @@ color: #2D2D2D;
 
 
 .pedir > center >  img{
-margin-top: 40px;
+
   
-    width: 40%
+    width: 60%
 }
 
 
@@ -379,7 +382,7 @@ text-align: center;
 
 .anuncio {
     width: 69%;
-   
+   margin-top: 30px;
    
     
     border-radius: 12px 12px 0px 0px;
@@ -732,10 +735,57 @@ max-width: 900px;
         
 
 
-        
+                #linklaranjatlgbottom > p{
+                    margin-bottom: 100px;
+                    padding: 13px;
+                    width: 150px;
+                    background-color: #EBB025;
+
+                }
     
-    
+                #linklaranjatlglargura > p{
+
+                    margin-bottom: 100px;
+                    padding: 15px;
+                    width: 200px;
+                    background-color: #EBB025;
+
+                }
                 
+
+                #linklaranjatlg1 > p:hover{
+                    transform: scale(1.05);   
+                }
+
+
+                #linklaranjatlg > p:hover{
+                    transform: scale(1.05);   
+                }
+
+
+                #linklaranjatlgbottom > p:hover{
+                    transform: scale(1.05);   
+                }
+
+
+                #linklaranjatlgmaior > p:hover{
+                    transform: scale(1.05);   
+                }
+
+
+                #linklaranjatlgazul > p:hover{
+                    transform: scale(1.05);   
+                }
+
+
+
+
+
+                #linklaranjatlglargura > p:hover{
+                    transform: scale(1.05);   
+                }
+
+              
 
 
 aside{
@@ -806,6 +856,36 @@ border-bottom: solid 3px #EBB025;
 
 
 
+.promocaocaixapequeno{
+
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+    width: 100%;
+    height: 100vh;
+
+
+    text-align: center;
+    border-radius: 5px 5px 5px 5px;
+              
+    font-family: Arial, Helvetica, sans-serif;
+        color: #2D2D2D;
+        box-shadow: 1px 2px 10px 5px #00000010;
+    padding: 0px;
+        background-color: #FDFDFD;
+
+
+}
+
+.promocaocaixapequeno > input{
+
+    padding: 7px;
+}
+
+
 
 
 .promocaocaixa1{
@@ -843,6 +923,11 @@ width: 480px;
 }
 
 
+.anunciopequeno{
+
+    margin-top: 100px;
+    width: 250px;
+}
 
 
 
