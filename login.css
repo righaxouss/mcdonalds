@@ -7,8 +7,21 @@ font-family: Arial, Helvetica, sans-serif;
 margin: 0;
 padding: 0;
 
-background-color: #E5E5E5;
+
 }
+
+
+
+
+.anuncio{
+    border-radius: 12px 12px 0px 0px;
+    margin-bottom: 40px;
+width: 280px;
+}
+
+
+
+
 
 .page {
 display: flex;
@@ -18,7 +31,7 @@ align-content: center;
 justify-content: center;
 width: 100%;
 height: 100vh;
-background-color: #E5E5E5;
+background-color: #EBB025;
 box-shadow: solid black 1px 2px 10px 1px;
 
 }
@@ -26,8 +39,8 @@ box-shadow: solid black 1px 2px 10px 1px;
 
 
 .formLogin {
-    border-bottom : 3px solid #EBB025;
- border-radius: 7px 7px 0px 0px;
+    
+ border-radius: 7px 7px 7px 7px;
     display: flex;
     flex-direction: column;
     background-color: #fff;
