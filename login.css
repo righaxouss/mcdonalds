@@ -62,7 +62,7 @@ margin: 20px;
 .formLogin h1 {
     padding: 20px;
     color: #555;
-   
+   text-align: center;
     
     font-weight: 500;
     font-size: 2.3em;
@@ -114,7 +114,7 @@ margin: 20px;
     border-radius: 7px;
     padding: 20px;
     background-color:#DB0007;
-    color: #EBB025;
+    color: white;
     font-size: 15px;
     font-weight: 600;
     border: none !important;
