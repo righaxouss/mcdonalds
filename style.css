@@ -5,6 +5,8 @@
 
 
 body{
+   
+margin: 30px;
     text-align: justify;
     color: white;
 background-color: #E5E5E5;
@@ -31,7 +33,7 @@ width: 200px;
 
 .imagemmeme{
 margin-left: 20px;
-   
+
 width: 400px;
 box-shadow: 1px 2px 10px 5px #00000010;
 
@@ -40,13 +42,16 @@ box-shadow: 1px 2px 10px 5px #00000010;
 
 
 header{
-    border-radius: 5px 5px 5px 5px;
-    
-    padding: 10px;
-    background-color: #EBB025;
-
-    
-    box-shadow: 1px 2px 10px 5px rgba(0, 0, 0, 0.342);
+    min-height: 350px;
+    max-width: 900px;
+    border-radius: 0px 0px 5px 5px;
+        
+        font-family: Arial, Helvetica, sans-serif;
+        
+            
+        
+        padding: 20px;
+            background-color: #EBB025;
 
 
 }
@@ -149,6 +154,7 @@ font-size: 25px;
 
 
 .pedir {
+    
     min-height: 350px;
 max-width: 900px;
 border-radius: 0px 0px 5px 5px;
@@ -962,7 +968,7 @@ width: 480px;
 
 footer{
 
-    border-radius: 5px;
+  
     margin-top: 40px;
 padding: 20px;
 background-color: #FBFBFB;

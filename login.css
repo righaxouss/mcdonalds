@@ -2,7 +2,7 @@
 
 
 body{
-
+background-color: #EBB025;
 font-family: Arial, Helvetica, sans-serif;
 margin: 0;
 padding: 0;
@@ -14,6 +14,7 @@ padding: 0;
 
 
 .anuncio{
+    margin-top: 20px;
     border-radius: 12px 12px 0px 0px;
     margin-bottom: 40px;
 width: 280px;
@@ -24,7 +25,11 @@ width: 280px;
         transform: scale(1.10); 
     }
 
+.page > h1{
 
+padding: 20px;
+
+}
 
 .page {
 display: flex;
@@ -33,7 +38,8 @@ align-items: center;
 align-content: center;
 justify-content: center;
 width: 100%;
-height: 100vh;
+height: 100%;
+
 background-color: #EBB025;
 box-shadow: solid black 1px 2px 10px 1px;
 
@@ -46,23 +52,24 @@ box-shadow: solid black 1px 2px 10px 1px;
  border-radius: 7px 7px 7px 7px;
     display: flex;
     flex-direction: column;
-    background-color: #fff;
-    
+    background-color: #EBB025;
     padding: 40px;
     box-shadow: 10px 10px 40px rgba(0, 0, 0, 0.014);
-    gap: 5px
+margin: 20px;
 }
 
 
 .formLogin h1 {
+    padding: 20px;
     color: #555;
-    padding: 0;
-    margin: 0;
+   
+    
     font-weight: 500;
     font-size: 2.3em;
 }
 
 .formLogin p {
+    text-align: justify;
     display: inline-block;
     font-size: 14px;
     color: #666;
@@ -103,11 +110,12 @@ box-shadow: solid black 1px 2px 10px 1px;
 }
 
 .botao > p {
+    text-align: center;
     border-radius: 7px;
     padding: 20px;
-    background-color:#EBB025;
-    color: #fff;
-    font-size: 14px;
+    background-color:#DB0007;
+    color: #EBB025;
+    font-size: 15px;
     font-weight: 600;
     border: none !important;
     transition: all linear 160ms;
