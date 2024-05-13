@@ -6,7 +6,7 @@
 
 body{
    
-
+    margin-top: 0px;
     text-align: justify;
     color: white;
 background-color: #E5E5E5;
@@ -66,6 +66,8 @@ text-align: left;
 
 
 
+
+
 .anuncio:hover{
 
     transform: scale(1.10); 
@@ -92,6 +94,7 @@ box-shadow: 1px 2px 10px 5px #00000010;
 
 
 .navheader {
+    margin-top: 0px;
     min-height: 350px;
     max-width: 900px;
     border-radius: 0px 0px 5px 5px;
