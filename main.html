@@ -22,17 +22,28 @@
 
 
         <main>
-    
-            <nav class="navheader" >
-                <br>
-                    <a  class="menu" href=""><img src="img/menu-hamburguer.png" alt=""></a>
-                    <a class="navp" href="promocao.html"> <p>Promoções</p></a>
-                    <a class="navp" href="cardapio.html"><p>Cardapio</p></a>
-                </nav>
-            
+
+
+           
     
             <nav class="pedir">
     
+                
+            <i id="burguer" class="material-symbols-outlined"  onclick="clickMenu()">III</i>
+            <menu id="itens" >
+                <ul>
+                
+                    <li>
+                        <a href="">Promoção</a>
+                    </li>
+                    <br>
+                    <br>
+                    <li>
+                        <a href="">MacOferta</a>
+                    </li>
+    
+                </ul>
+            </menu>
 
 <center><img src="img/vecteezy_hamburger-png-com-ai-gerado_25063616.png" alt=""></center>
 
@@ -228,5 +239,21 @@
 </footer>
 
 
+
+
+<script>
+    function clickMenu() {
+        if (itens.style.display == 'block'){
+            itens.style.display = 'none'
+        }
+
+        else{
+            itens.style.display = 'block'
+        }
+
+    }
+
+
+</script>
 </body>
 </html>
