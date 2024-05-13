@@ -1016,33 +1016,26 @@ width: 480px;
     
 
 
+
+
+
 footer{
 
-  
-    margin-top: 40px;
-padding: 20px;
-background-color: #FBFBFB;
-border-top: solid 3px #EBB025;
-
-}
-
-
-footer >  div > h1{
-
-color: #2D2D2D;
-
-}
-
-footer > div > a{
-    font-size: 20px;
-    font-weight: bold;
-color: #EBB025;
-text-decoration: none;
-
-}
-
-footer > div > img{
- width: 60px;
- 
-}
-
+    text-align: right;
+    padding-top: 15px;
+    position: relative;
+    position: sticky;
+    bottom: -1px;
+    top: -1px;
+    
+     }
+    
+    footer > a > img{
+        
+        position: relative;
+    position: sticky;
+         
+    padding: 20px;
+    width: 55px;
+    
+     }
