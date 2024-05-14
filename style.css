@@ -15,6 +15,14 @@ font-family: Arial, Helvetica, sans-serif;
 
 }
 
+
+a.externo::after{
+
+    content: '\00A0\1F517';
+    
+    }
+
+
 #burguer{
   font-size: 1.5em;  
 width: 30px;
@@ -680,7 +688,7 @@ max-width: 900px;
 
         .main005{
             border-radius: 5px 5px 0px 0px;
-          
+          margin-bottom: 30px;
             margin-top: 30px;
             min-height: 220px;
         max-width: 900px;
@@ -865,35 +873,6 @@ max-width: 900px;
               
 
 
-aside{
-    
-    text-align: center;
-    border-radius: 5px 5px 5px 5px;
-              
-    margin-top: 150px;
-    min-height: 150px;
-max-width: 900px;
-
- 
-    font-family: Arial, Helvetica, sans-serif;
-        color: #2D2D2D;
-        box-shadow: 1px 2px 10px 5px #00000010;
-    padding: 20px;
-        background-color: white;
-border-top: solid 3px #EBB025;
-border-bottom: solid 3px #EBB025;
-}
-
-
-
-
-.navaside > a{
-
-    color: #2D2D2D;
-
-
-
-}
 
 
 
@@ -1029,8 +1008,41 @@ width: 480px;
 
 
 
-footer{
 
+aside{
+     color: #2D2D2D;
+     box-shadow: 1px 2px 10px 5px #00000010;
+    padding: 20px;
+    background-color: white;
+border-top: solid 3px #EBB025;
+
+}
+
+aside > p{
+    text-align: center;
+}
+
+aside > ul > li{
+
+padding: 10px
+
+}
+
+
+
+
+
+aside > ul > li > a{
+    font-size: 1em;
+font-weight: bolder;
+text-decoration: none;
+color: #2D2D2D;
+}
+
+
+
+
+footer{
     text-align: right;
     padding-top: 15px;
     position: relative;
