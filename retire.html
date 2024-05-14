@@ -6,7 +6,61 @@
     <title>Peça seu Lanche</title>
 
 
+<style>
+        body{
+       
+       margin: 0px;
+       padding: 0px;
+       background-color:#E5E5E5 ;
+           }
+       
+       
+       
+       
+       main {
+           border-radius: 7px;
+           margin: 10px;
+           color: #2D2D2D;
+           background-color:#EBB025 ;
+           padding: 50px;
+       
+       
+       
+       }
+       
+       img{
+           margin-top: 100px;
+       
+       }
+       
+       
+       h1{
+           margin-top: 70px;
+         text-align: center;  
+       }
+       
+       p{
+       margin-top: 50px;
+       
+       text-align: center;
+       
+       }
+       
+       #voltar{
+           color: white;
+       padding: 15px;
+           background-color:#DB0007;
+           text-decoration: none;
+           border-radius: 7px;
+       }
+      
+        center > a > p{
+        color: #2D2D2D;
+background-color: white;
+padding: 5px;
+       }
 
+</style>
 
 
     
@@ -16,19 +70,48 @@
       
 
 
-    <main class="promocaocaixapequeno">
+    <main>
+    
+        <a id="voltar" href="main.html">Voltar</a>
+    
+    
+        
+            
+            
+            
+        
+        </center>
+
+        <center><img src="img/perguntas.png" alt="" width="300px" ></center>
+        <h1>Preencha o campo abaixo!</h1>
     
 
-        <center><img class="anunciopequeno" src="img/perguntas.png" alt=""></center>
-        <h1>Preencha o campo abaixo!</h1>
-    <p>Digite sua localização abaixo</p>
-        <input type="text"required >
-       <p>Selecione o método de pagamento:</p>
-       <input type="text"required >
+        
+<form action="cadastro.php" method="post" autocomplete="on" ></form>
+<p>
 
+    <label for="iest">Selecione seu pedido</label>
+    <select name="estado" id="iest">
+
+<optgroup label="Hamburguer" >
+<option value="MG">BigTasty</option>
+<option value="RJ">Smash Burger</option>
+
+
+</optgroup>
+
+
+<optgroup label="Ices" >
+    <option value="PR">MilShake</option>
+</optgroup>
+
+
+    </select>
+</p>
+    
 
         <center>
-            <a id="linklaranjatlg1" href="enviar.html">
+            <a  href="enviar.html">
                 <p>Enviar</p>
             </a>
         </center>
@@ -39,7 +122,14 @@
 
 
 
+    <footer>
 
+ 
+        <a href=""><img src="img/whatsapp.png" alt=""></a>
+    
+    
+    </footer>
+    
 
 
 
